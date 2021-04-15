@@ -1,0 +1,51 @@
+image: python:3.8-buster
+
+variables:
+  PANTS_CONFIG_FILES: pants.ci.toml
+
+cache:
+  paths:
+    - .cache
+
+stages:
+  - test
+  - build
+  - deploy
+
+before_script:
+  - apt-get update
+  - apt-get install -y --no-install-recommends gcc python3-dev
+  - python -V
+  - ./pants --version
+
+test not main:
+  stage: test
+  rules:
+    - if: '$CI_COMMIT_BRANCH != "main"'
+  script:
+    - ./pants --changed-since=origin/main --print-stacktrace lint
+    - ./pants --changed-since=origin/main --changed-dependees=transitive typecheck test
+
+test main:
+  stage: test
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+  script:
+    - './pants lint typecheck test ::'
+
+build not main:
+  stage: build
+  rules:
+    - if: '$CI_COMMIT_BRANCH != "main"'
+  script:
+    - ./pants --changed-since=origin/main package
+
+build main:
+  stage: build
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+  artifacts:
+    paths:
+      - "dist/**/*.pex"
+  script:
+    - './pants package ::'
