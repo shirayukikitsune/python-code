@@ -3,5 +3,5 @@ pex_binary(
 )
 
 python_library(
-    name="extremely_basic0",
+    name="lib",
 )

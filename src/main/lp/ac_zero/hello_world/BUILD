@@ -3,5 +3,5 @@ pex_binary(
 )
 
 python_library(
-    name="hello_world0",
+    name="lib",
 )
