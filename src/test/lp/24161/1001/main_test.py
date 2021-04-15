@@ -2,7 +2,7 @@ import sys
 import unittest
 from unittest.mock import patch, call
 from io import StringIO
-from lp.ac_zero.extremely_basic import main
+from lp.ambientacao.extremely_basic import main
 
 
 class MyTestCase(unittest.TestCase):

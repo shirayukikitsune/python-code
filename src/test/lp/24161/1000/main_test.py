@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, call
-from lp.ac_zero.hello_world import main
+from lp.ambientacao.hello_world import main
 
 
 class MyTestCase(unittest.TestCase):
