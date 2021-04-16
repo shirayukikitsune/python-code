@@ -6,6 +6,17 @@ This monorepo contains the code for all activities during my graduation course
 
 - [Python 3.8+][python]
 - [Pants][pants-build] (included)
+- [direnv][direnv]
+
+### Setting up direnv:
+
+1. [Install direnv](https://direnv.net/docs/installation.html)
+    - MacOS: `brew install direnv`
+    - Debian/Ubuntu: `sudo apt install direnv`
+2. [Setup your shell](https://direnv.net/docs/hook.html)
+    - BASH: `echo 'eval "$(direnv hook bash)"' >> ~/.bashrc`
+    - ZSH: `echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc`
+3. Allow the direnv: `direnv allow`
 
 ## Folder structure
 
@@ -36,3 +47,4 @@ For example:
 
 [pants-build]: https://www.pantsbuild.org/
 [python]: https://www.python.org/
+[direnv]: https://direnv.net/

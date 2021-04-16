@@ -1,6 +1,11 @@
 [GLOBAL]
 pants_version = "2.4.0rc3"
+pantsd = true
 backend_packages = ["pants.backend.python"]
+build_file_prelude_globs = ["pants-plugins/macros.py"]
 
 [source]
-root_patterns = ['/src/main','/src/test']
+root_patterns = ['/src/*','/tests']
+
+[python-setup]
+interpreter_constraints = ["CPython>=3.8"]
