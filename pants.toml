@@ -1,5 +1,5 @@
 [GLOBAL]
-pants_version = "2.4.0rc3"
+pants_version = "2.4.0rc4"
 pantsd = true
 backend_packages = ["pants.backend.python"]
 build_file_prelude_globs = ["pants-plugins/macros.py"]
