@@ -1,1 +1,1 @@
-test_cases(test_folder = '1000')
+test_cases()

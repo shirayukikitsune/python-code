@@ -1,8 +1,7 @@
-def test_cases(**kwargs):
-    folder = kwargs["test_folder"]
+def test_cases():
     files(
         name='test_cases',
-        sources=['../../../../../tests/' + folder + '/**/*.txt'],
+        sources=['cases/**/*.txt'],
     )
 
     python_tests(

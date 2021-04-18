@@ -1,11 +1,12 @@
 import unittest
+from os.path import dirname, abspath
 
 from commons.io.utils import run_tests_with_io
 from lp.ambientacao.simple_product import main
 
 
 class MyTestCase(unittest.TestCase):
-    @run_tests_with_io('tests/1004')
+    @run_tests_with_io(abspath(dirname(__file__)) + '/cases')
     def test_inputs(self):
         main.run()
 
