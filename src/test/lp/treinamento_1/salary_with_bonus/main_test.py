@@ -5,7 +5,7 @@ from commons.io.utils import run_tests_with_io
 from lp.treinamento_1.salary_with_bonus import main
 
 
-class SalaryTestCase(unittest.TestCase):
+class SalaryWithBonusTestCase(unittest.TestCase):
     @run_tests_with_io(abspath(dirname(__file__)) + '/cases')
     def test_inputs(self):
         main.run()
