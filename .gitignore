@@ -3,3 +3,5 @@
 /.pids
 /.pants.workdir.file_lock*
 /.cache
+
+.DS_Store

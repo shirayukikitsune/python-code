@@ -2,7 +2,7 @@ import unittest
 from os.path import abspath, dirname
 
 from commons.io.utils import run_tests_with_io
-from uri.p1608 import main
+from uri.p16xx.p160x.p1608 import main
 
 
 class P1608TestCase(unittest.TestCase):
