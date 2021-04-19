@@ -5,7 +5,7 @@ from commons.io.utils import run_tests_with_io
 from lp.treinamento_3.odd_numbers import main
 
 
-class MultiplesTestCase(unittest.TestCase):
+class OddNumbersTestCase(unittest.TestCase):
     @run_tests_with_io(abspath(dirname(__file__)) + '/cases')
     def test_inputs(self):
         main.run()
