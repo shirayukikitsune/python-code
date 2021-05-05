@@ -5,7 +5,7 @@ import os.path
 import sys
 
 
-def run_test_case(test_fn, input_file, output_file, *args, **kwargs):
+def run_test_case(test_fn, case, input_file, output_file, *args, **kwargs):
     # Store stdin/stdout
     stdin = sys.stdin
     stdout = sys.stdout
@@ -31,7 +31,7 @@ def run_test_case(test_fn, input_file, output_file, *args, **kwargs):
     sys.stdout = stdout
 
     # Assert!
-    assert got == expected
+    case.assertEqual(got, expected)
 
 
 def run_tests_with_io(test_folder):
@@ -39,12 +39,12 @@ def run_tests_with_io(test_folder):
         @functools.wraps(test_fn)
         def wrapper(*args, **kwargs):
             # Scan directories inside test folder
+            test_case = args[0]
             for entry in os.listdir(test_folder):
-                print('Checking dir "%s"' % entry)
                 input_file = test_folder + '/' + entry + '/input.txt'
                 output_file = test_folder + '/' + entry + '/output.txt'
                 if os.path.isfile(input_file) and os.path.isfile(output_file):
-                    print('Running test case "%s"' % entry)
-                    run_test_case(test_fn, input_file, output_file, *args, **kwargs)
+                    test_case.subTest(case=entry)
+                    run_test_case(test_fn, test_case, input_file, output_file, *args, **kwargs)
         return wrapper
     return decorator
