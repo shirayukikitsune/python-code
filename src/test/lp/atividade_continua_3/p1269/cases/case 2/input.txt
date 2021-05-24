@@ -1,0 +1,5 @@
+
+adicionar 10
+adicionar 11
+adicionar 5
+encerrar

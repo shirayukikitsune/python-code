@@ -1,0 +1,7 @@
+5 27 389
+exibir
+adicionar 1
+remover 200
+exibir
+remover 389
+encerrar

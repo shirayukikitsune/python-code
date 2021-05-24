@@ -1,0 +1,9 @@
+6
+Canal A;2000;100.00;sim
+Canal B;1000;100.00;sim
+Canal C;1999;100.00;sim
+Canal D;999;100.00;sim
+Canal E;1;100.00;sim
+Canal F;15000;0.00;não
+0.01
+1.00

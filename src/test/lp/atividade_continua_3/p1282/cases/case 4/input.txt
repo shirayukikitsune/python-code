@@ -1,0 +1,8 @@
+5
+Canal A;2000;100.00;sim
+Canal B;1000;100.00;sim
+Canal C;1999;100.00;sim
+Canal D;999;100.00;sim
+Canal E;1;100.00;sim
+2.00
+0.50

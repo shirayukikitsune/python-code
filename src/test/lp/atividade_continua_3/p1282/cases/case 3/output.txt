@@ -1,0 +1,10 @@
+-----
+BÔNUS
+-----
+Canal A: R$ 100.02
+Canal B: R$ 102.00
+Canal C: R$ 100.01
+Canal D: R$ 101.00
+Canal E: R$ 100.00
+Canal F: R$ 100.00
+Canal G: R$ 15.00

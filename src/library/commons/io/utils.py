@@ -11,13 +11,13 @@ def run_test_case(test_fn, case, input_file, output_file, *args, **kwargs):
     stdout = sys.stdout
 
     # Create an StringIO that will receive stdout
-    with io.StringIO() as output_stream, io.open(input_file) as input_stream:
+    with io.StringIO() as output_stream, io.open(input_file, encoding='utf8') as input_stream:
         # Redirect stdin from the input_file
         sys.stdin = input_stream
         # Redirect stdout to the StringIO
         sys.stdout = output_stream
         # Load expected output
-        with io.open(output_file) as file:
+        with io.open(output_file, encoding='utf8') as file:
             expected = file.read()
 
         # Execute the subject function
@@ -31,7 +31,7 @@ def run_test_case(test_fn, case, input_file, output_file, *args, **kwargs):
     sys.stdout = stdout
 
     # Assert!
-    case.assertEqual(got, expected)
+    case.assertEqual(expected, got)
 
 
 def run_tests_with_io(test_folder):

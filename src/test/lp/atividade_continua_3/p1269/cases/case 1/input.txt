@@ -1,0 +1,7 @@
+3 25 12
+exibir
+adicionar 1
+adicionar 312
+exibir
+adicionar 19
+encerrar
