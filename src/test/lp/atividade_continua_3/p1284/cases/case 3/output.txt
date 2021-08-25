@@ -1,0 +1,6 @@
+NOTAS ALTERADAS: 1
+-(001) original: 07.00 | final: 07.00
+-(002) original: 06.00 | final: 06.00
+-(003) original: 10.00 | final: 10.00
+-(004) original: 01.00 | final: 01.00
+*(005) original: 09.00 | final: 10.00

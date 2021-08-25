@@ -1,0 +1,5 @@
+py_library(
+    name = "commons_testing",
+    srcs = ["utils.py"],
+    deps = [],
+)
