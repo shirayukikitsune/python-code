@@ -1,8 +1,8 @@
 import unittest
 from os.path import abspath, dirname
 
-from commons.io.utils import run_tests_with_io
-from lp.ambientacao.average_1 import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.lp.ambientacao.average_1 import main
 
 
 class Average1TestCase(unittest.TestCase):

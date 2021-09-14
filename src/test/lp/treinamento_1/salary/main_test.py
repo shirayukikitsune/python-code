@@ -1,8 +1,8 @@
 from os.path import abspath,dirname
 import unittest
 
-from commons.io.utils import run_tests_with_io
-from lp.treinamento_1.salary import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.lp.treinamento_1.salary import main
 
 
 class SalaryTestCase(unittest.TestCase):

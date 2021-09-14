@@ -1,8 +1,8 @@
 import unittest
 from os.path import abspath, dirname
 
-from commons.io.utils import run_tests_with_io
-from lp.atividade_continua_2.leap_years import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.lp.atividade_continua_2.leap_years import main
 
 
 class LeapYearsTestCase(unittest.TestCase):

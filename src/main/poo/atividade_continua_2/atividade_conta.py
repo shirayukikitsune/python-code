@@ -101,6 +101,8 @@ Parte 4) implemente os seguintes métodos públicos:
 """
 
 from enum import Enum
+from numbers import Number
+from typing import Optional
 
 
 class Erro(Enum):
@@ -110,7 +112,7 @@ class Erro(Enum):
     CONTA_DESTINO_INATIVA = 4
 
 
-class Operacoes(Enum):
+class Operacoes:
     SALDO_INICIAL = 'saldo inicial'
     DEPOSITO = 'deposito'
     SAQUE = 'saque'
@@ -157,19 +159,22 @@ class Conta:
         if isinstance(situacao, bool):
             self._ativa = situacao
 
-    def __adiciona_operacao(self, operacao: Operacoes, valor):
+    def __adiciona_operacao(self, operacao: str, valor):
         self._operacoes.append((operacao, valor))
 
-    def __verifica(self, valor) -> Erro | None:
+    def __verifica(self, valor) -> Optional[Erro]:
         if not self._ativa:
             return Erro.CONTA_INATIVA
+
+        if not isinstance(valor, Number):
+            return Erro.VALOR_INVALIDO
 
         if valor <= 0:
             return Erro.VALOR_INVALIDO
 
         return None
 
-    def __verifica_saque(self, valor) -> Erro | None:
+    def __verifica_saque(self, valor) -> Optional[Erro]:
         erro = self.__verifica(valor)
         if erro is not None:
             return erro
@@ -179,7 +184,7 @@ class Conta:
 
         return None
 
-    def depositar(self, valor) -> Erro:
+    def depositar(self, valor) -> Optional[Erro]:
         erro = self.__verifica(valor)
         if erro is not None:
             return erro
@@ -187,7 +192,7 @@ class Conta:
         self._saldo += valor
         self.__adiciona_operacao(Operacoes.DEPOSITO, valor)
 
-    def sacar(self, valor):
+    def sacar(self, valor) -> Optional[Erro]:
         erro = self.__verifica_saque(valor)
         if erro is not None:
             return erro
@@ -195,7 +200,7 @@ class Conta:
         self._saldo -= valor
         self.__adiciona_operacao(Operacoes.SAQUE, valor)
 
-    def transferir(self, conta_destino, valor):
+    def transferir(self, conta_destino, valor) -> Optional[Erro]:
         erro = self.__verifica_saque(valor)
         if erro is not None:
             return erro
@@ -206,5 +211,5 @@ class Conta:
         self.__adiciona_operacao(Operacoes.TRANSFERENCIA, valor)
         conta_destino.depositar(valor)
 
-    def tirar_extrato(self):
+    def tirar_extrato(self) -> list:
         return self._operacoes

@@ -1,8 +1,8 @@
 import unittest
 from os.path import abspath, dirname
 
-from commons.io.utils import run_tests_with_io
-from lp.ambientacao.circle_area import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.lp.ambientacao.circle_area import main
 
 
 class CircleAreaTestCase(unittest.TestCase):

@@ -1,8 +1,8 @@
 import unittest
 from os.path import abspath, dirname
 
-from commons.io.utils import run_tests_with_io
-from lp.atividade_continua_3.p1282 import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.lp.atividade_continua_3.p1282 import main
 
 
 class ImpacTubeTestCase(unittest.TestCase):

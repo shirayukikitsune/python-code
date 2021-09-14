@@ -1,0 +1,13 @@
+py_test(
+    name = "src_test_main_test",
+    srcs = ["main_test.py"],
+    data = [
+        "cases",
+    ],
+    deps = [
+        "//src/main/lp/ambientacao/average_1:src_lib",
+        "//src/library/commons/testing:src_lib",
+    ],
+    main = "main_test.py"
+)
+

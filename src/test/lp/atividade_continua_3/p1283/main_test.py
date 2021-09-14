@@ -1,8 +1,8 @@
 import unittest
 from os.path import abspath, dirname
 
-from commons.io.utils import run_tests_with_io
-from lp.atividade_continua_3.p1283 import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.lp.atividade_continua_3.p1283 import main
 
 
 class RunForrestTestCase(unittest.TestCase):

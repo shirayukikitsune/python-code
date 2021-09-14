@@ -1,8 +1,8 @@
 import unittest
 from os.path import dirname, abspath
 
-from commons.io.utils import run_tests_with_io
-from uri.p10xx.p103x.p1039 import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.uri.p10xx.p103x.p1039 import main
 
 
 class FireFlowersTestCase(unittest.TestCase):

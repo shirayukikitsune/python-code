@@ -1,8 +1,8 @@
 import unittest
 from os.path import dirname, abspath
 
-from commons.io.utils import run_tests_with_io
-from lp.treinamento_4.different_digits import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.lp.treinamento_4.different_digits import main
 
 
 class OddNumbersTestCase(unittest.TestCase):

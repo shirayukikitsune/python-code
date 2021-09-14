@@ -1,5 +1,9 @@
 py_library(
-    name = "commons_testing",
-    srcs = ["utils.py"],
+    name = "src_lib",
+    srcs = [
+        "__init__.py",
+        "utils.py",
+    ],
+    visibility = ["//src/test:__subpackages__"],
     deps = [],
 )

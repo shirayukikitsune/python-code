@@ -1,8 +1,8 @@
 import unittest
 from os.path import dirname, abspath
 
-from commons.io.utils import run_tests_with_io
-from uri.p10xx.p101x.p1010 import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.uri.p10xx.p101x.p1010 import main
 
 
 class SimpleCalculateTestCase(unittest.TestCase):

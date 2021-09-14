@@ -3,5 +3,10 @@
 /.pids
 /.pants.workdir.file_lock*
 /.cache
+/.ijwb
+/bazel-bin
+/bazel-out
+/bazel-python-code
+/bazel-testlogs
 
 .DS_Store

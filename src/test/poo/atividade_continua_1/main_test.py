@@ -2,8 +2,8 @@ import sys
 import unittest
 from os.path import abspath, dirname
 
-from commons.io.utils import run_tests_with_io
-from poo.atividade_continua_1 import numeros
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.poo.atividade_continua_1 import numeros
 
 
 class AtividadeContinua1TestCase(unittest.TestCase):

@@ -1,0 +1,11 @@
+py_library(
+    name = "src_lib",
+    srcs = ["main.py",],
+    visibility = ["//visibility:public"],
+)
+
+py_binary(
+    name = "range_of_primes",
+    srcs = ["main.py",],
+    main = "main.py"
+)

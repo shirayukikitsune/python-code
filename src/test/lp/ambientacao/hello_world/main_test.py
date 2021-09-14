@@ -1,8 +1,8 @@
 import unittest
 from os.path import dirname, abspath
 
-from commons.io.utils import run_tests_with_io
-from lp.ambientacao.hello_world import main
+from src.library.commons.testing.utils import run_tests_with_io
+from src.main.lp.ambientacao.hello_world import main
 
 
 class HelloWorldTestCase(unittest.TestCase):

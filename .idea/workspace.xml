@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf8e9b59-c796-43fe-9f7e-ba5ce4e5f539" name="Default Changelist" comment="Add solution for problem 2653">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ijwb/.blaze/modules/.project-data-dir.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ijwb/.blaze/modules/.workspace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ijwb/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ijwb/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ijwb/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ijwb/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ijwb/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-out/stable-status.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-out/volatile-status.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-python-code/bazel-out/stable-status.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-python-code/bazel-out/volatile-status.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1rB98gm5VcruN7U2QWLQJ16AwMJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/uri/p26xx/p265x/p2653" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/uri/p26xx/p265x/p2653" />
+      <recent name="$PROJECT_DIR$/src/main/uri/p26xx/p265x/p2653" />
+      <recent name="$PROJECT_DIR$/src/test/uri/p10xx/p101x/p1011/cases" />
+      <recent name="$PROJECT_DIR$/src/test/uri/p10xx/p101x/p1011" />
+      <recent name="$PROJECT_DIR$/src/main/uri/p10xx/p101x/p1011" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/uri" />
+      <recent name="$PROJECT_DIR$/src/test/lp/ambientacao/average_1" />
+      <recent name="$PROJECT_DIR$/src/test/lp/ambientacao/circle_area" />
+      <recent name="$PROJECT_DIR$/src/test/lp/ambientacao/extremely_basic" />
+      <recent name="$PROJECT_DIR$/src/test/uri/p16xx/p1608" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lp/24161/1000" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lp/24161/1000/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for main_test.FireFlowersTestCase.test_inputs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/uri/p10xx/p103x/p1039" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;main_test.FireFlowersTestCase.test_inputs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in /Users/shirayukikitsune/python-code/lp/24161/1000/main_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lp/24161/1000" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lp/24161/1000/main_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in /Users/shirayukikitsune/python-code/src/test/uri/p29xx/p294x/p2948/main_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/uri/p29xx/p294x/p2948" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test/uri/p29xx/p294x/p2948/main_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in /Users/shirayukikitsune/python-code/src/test/uri/p3167/main_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test/uri/p3167/main_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in /Users/shirayukikitsune/python-code/src/test/uri/p3167/main_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test/uri/p3167/main_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in main_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/lp/treinamento_3/sum_of_consecutive_odd_numbers_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/test/lp/treinamento_3/sum_of_consecutive_odd_numbers_1/main_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in main_test.py" />
+        <item itemvalue="Python tests.Unittests in /Users/shirayukikitsune/python-code/src/test/uri/p3167/main_test.py" />
+        <item itemvalue="Python tests.Unittests in /Users/shirayukikitsune/python-code/src/test/uri/p29xx/p294x/p2948/main_test.py" />
+        <item itemvalue="Python tests.Unittests in /Users/shirayukikitsune/python-code/lp/24161/1000/main_test.py" />
+        <item itemvalue="Python tests.Unittests for main_test.FireFlowersTestCase.test_inputs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf8e9b59-c796-43fe-9f7e-ba5ce4e5f539" name="Default Changelist" comment="" />
+      <created>1618438460187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618438460187</updated>
+      <workItem from="1618438465448" duration="435000" />
+      <workItem from="1618439074036" duration="6368000" />
+      <workItem from="1618446952056" duration="756000" />
+      <workItem from="1618447816650" duration="23584000" />
+      <workItem from="1618805393556" duration="14824000" />
+      <workItem from="1627496449248" duration="117000" />
+      <workItem from="1627496629447" duration="196000" />
+    </task>
+    <task id="LOCAL-00001" summary="Import hello_world project">
+      <created>1618445988796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618445988796</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rename Gitlab CI file">
+      <created>1618446105308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618446105308</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add python3-dev deps">
+      <created>1618446721348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618446721348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix apt order">
+      <created>1618447019928</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618447019928</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add verbosity">
+      <created>1618447156957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618447156957</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add subproject extremely_basic">
+      <created>1618448958065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618448958065</updated>
+    </task>
+    <task id="LOCAL-00007" summary="debug git remote">
+      <created>1618450726734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618450726734</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add solution for problem 1007">
+      <created>1618554017178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618554017178</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add solution for problem 3167">
+      <created>1618728063149</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618728063149</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add solution for problem 1608">
+      <created>1618731693412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618731693412</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add solution for problem 1008&#10;&#10;Also fix project structure">
+      <created>1618733946770</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618733946770</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add solution for problem 1009">
+      <created>1618734631003</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1618734631003</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add solution for problem 1012">
+      <created>1618735116098</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1618735116098</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add solution for problem 1014">
+      <created>1618736461047</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618736461047</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add solution for problem 1015">
+      <created>1618736901801</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618736901801</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add solution for problem 1015">
+      <created>1618736931300</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618736931300</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix test names">
+      <created>1618737498090</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618737498090</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add solution for problem 1044">
+      <created>1618737668407</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618737668407</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add solution for problem 1044">
+      <created>1618737683644</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1618737683644</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add solution for problem 1044">
+      <created>1618737746681</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1618737746681</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add solution for problem 1052">
+      <created>1618738123840</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1618738123840</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add solution for problem 1052">
+      <created>1618738142986</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1618738142986</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add solution for problem 1067">
+      <created>1618738720387</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1618738720387</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add solution for problem 1052">
+      <created>1618738807524</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1618738807524</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add solution for problem 1071">
+      <created>1618740233952</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1618740233952</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add solution for problem 1073">
+      <created>1618806139798</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1618806139798</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Change directory structure inside src/main/uri">
+      <created>1618806647853</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1618806647853</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add links for p100x">
+      <created>1618806938798</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1618806938798</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add .DS_Store to gitignore">
+      <created>1618806951962</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1618806951962</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add links for p101x">
+      <created>1618807124014</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807124014</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add links for p101x in tests">
+      <created>1618807206342</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807206342</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add links for p100x in tests">
+      <created>1618807314469</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807314469</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add links for p104x">
+      <created>1618807454035</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807454035</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add links for p105x">
+      <created>1618807494692</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807494692</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add links for p106x">
+      <created>1618807575309</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807575309</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add links for p107x">
+      <created>1618807635430</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807635430</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add links for p107x in tests">
+      <created>1618807678386</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807678386</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add solution for problem 1154">
+      <created>1620514831681</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1620514831681</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add solution for problem 1039">
+      <created>1620516029530</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1620516029530</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add solution for problem 1010">
+      <created>1621406121434</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1621406121434</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add solution for problem 1011">
+      <created>1621406512106</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1621406512106</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add solution for problem 2653">
+      <created>1621407831191</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1621407831191</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add solution for problem 1012" />
+    <MESSAGE value="Add solution for problem 1014" />
+    <MESSAGE value="Add solution for problem 1015" />
+    <MESSAGE value="Fix test names" />
+    <MESSAGE value="Add solution for problem 1044" />
+    <MESSAGE value="Add solution for problem 1067" />
+    <MESSAGE value="Add solution for problem 1052" />
+    <MESSAGE value="Add solution for problem 1071" />
+    <MESSAGE value="Add solution for problem 1073" />
+    <MESSAGE value="Change directory structure inside src/main/uri" />
+    <MESSAGE value="Add links for p100x" />
+    <MESSAGE value="Add .DS_Store to gitignore" />
+    <MESSAGE value="Add links for p101x" />
+    <MESSAGE value="Add links for p101x in tests" />
+    <MESSAGE value="Add links for p100x in tests" />
+    <MESSAGE value="Add links for p104x" />
+    <MESSAGE value="Add links for p105x" />
+    <MESSAGE value="Add links for p106x" />
+    <MESSAGE value="Add links for p107x" />
+    <MESSAGE value="Add links for p107x in tests" />
+    <MESSAGE value="Add solution for problem 1154" />
+    <MESSAGE value="Add solution for problem 1039" />
+    <MESSAGE value="Add solution for problem 1010" />
+    <MESSAGE value="Add solution for problem 1011" />
+    <MESSAGE value="Add solution for problem 2653" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add solution for problem 2653" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_code$Unittests_for_main_test_FireFlowersTestCase_test_inputs.coverage" NAME="Unittests for main_test.FireFlowersTestCase.test_inputs Coverage Results" MODIFIED="1620515923747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/uri/p10xx/p103x/p1039" />
+    <SUITE FILE_PATH="coverage/python_code$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1618448150756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/python_code$Unittests_for_main_test_EvenSquareTestCase_test_inputs.coverage" NAME="Unittests for main_test.EvenSquareTestCase.test_inputs Coverage Results" MODIFIED="1620515689379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/lp/treinamento_3/ages" />
+    <SUITE FILE_PATH="coverage/python_code$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1618729010071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/uri/p1608" />
+    <SUITE FILE_PATH="coverage/python_code$Unittests_for_main_test_DifferenceTestCase_test_inputs.coverage" NAME="Unittests for main_test.DifferenceTestCase.test_inputs Coverage Results" MODIFIED="1618595521591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/python_code$Unittests_in_main_test_py__1_.coverage" NAME="Unittests in main_test.py (1) Coverage Results" MODIFIED="1618816367874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/uri/p29xx/p294x/p2948" />
+    <SUITE FILE_PATH="coverage/python_code$main.coverage" NAME="main Coverage Results" MODIFIED="1618439105774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lp/24161/1000" />
+    <SUITE FILE_PATH="coverage/python_code$Unittests_in_main_test_py.coverage" NAME="Unittests in main_test.py Coverage Results" MODIFIED="1618734600468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/lp/treinamento_1/salary_with_bonus" />
+    <SUITE FILE_PATH="coverage/python_code$Unittests_for_main_test_P3167TestCase.coverage" NAME="Unittests in main_test.py Coverage Results" MODIFIED="1618728995687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
