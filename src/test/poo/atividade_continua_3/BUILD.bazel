@@ -1,0 +1,10 @@
+py_test(
+    name = "src_test_test_loja",
+    srcs = ["test_loja.py"],
+    data = [
+    ],
+    deps = [
+        "//src/main/poo/atividade_continua_3:src_lib",
+    ],
+    main = "test_loja.py"
+)

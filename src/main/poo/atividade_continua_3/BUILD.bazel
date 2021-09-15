@@ -1,0 +1,5 @@
+py_library(
+    name = "src_lib",
+    srcs = ["loja.py",],
+    visibility = ["//visibility:public"],
+)
